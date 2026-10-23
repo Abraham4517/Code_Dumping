@@ -162,7 +162,7 @@ function tampilkanStatusAnggota(Siswa $anggota): void {
 
 // Eksekusi Program
 try {
-    echo "<b>=== 1. Status Awal Anggota Kelas (Polymorphism & Overriding) ===</b><br>";
+    echo "<b>=== 1. Status Awal Anggota Kelas ===</b><br>";
     $siswa1 = new Siswa("Abraham Banyu Pradipta", "20251020006", 50000);
     $siswa2 = new Siswa("Budi Santoso", "20251020007", 20000);
     $bendahara = new Bendahara("Siti Aminah", "20251020008", 10000, "2026/2027");
